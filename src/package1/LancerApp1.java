@@ -31,8 +31,8 @@ public class LancerApp1 {
 		lesTrains[0] = new TrainCercleImage(d, 10, imgVador); d.ajouterObjet(lesTrains[0]);
 		lesTrains[1] = new TrainCercleImage(d, 10, imgLeila); d.ajouterObjet(lesTrains[1]);
 		for (int i = 2; i < 10; i++) {
-		   lesTrains[i] = new TrainCercleCouleur(new Color((float) Math.random(), (float) Math.random(),(float) Math.random()), d, 10, 10);	
-		d.ajouterObjet(lesTrains[i]);
+			lesTrains[i] = new TrainCercleCouleur(new Color((float) Math.random(), (float) Math.random(),(float) Math.random()), d, 10, 10);	
+			d.ajouterObjet(lesTrains[i]);
 		}
 		
 		Visage v = new Visage (d);
@@ -44,7 +44,9 @@ public class LancerApp1 {
 		d.ajouterObjet(f1);	
 		d.ajouterObjet(f2);	
 		
-		
+		d.ajouterObjet(new AnimationForme(new Etoile(350, 100, 50, 8.f, Color.RED, Color.YELLOW), new MvtCirculaire (250, 250, 180, 0, 5) ));
+		d.ajouterObjet(new AnimationForme(new PolygoneRegulier(5, 240, 40, 40, 4.0f, Color.DARK_GRAY,null), new MvtCirculaire(210, 210, 180, 0, 5)));
+		//d.ajouterObjet(new AnimationForme(new Visage(d, 300, 500, 40, 60), new MvtCirculaire(250,250, 180, 0, 5)));
 		
 		
 		
