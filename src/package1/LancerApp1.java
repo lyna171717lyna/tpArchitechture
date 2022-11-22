@@ -46,7 +46,7 @@ public class LancerApp1 {
 		
 		d.ajouterObjet(new AnimationForme(new Etoile(350, 100, 50, 8.f, Color.RED, Color.YELLOW), new MvtCirculaire (250, 250, 180, 0, 5) ));
 		d.ajouterObjet(new AnimationForme(new PolygoneRegulier(5, 240, 40, 40, 4.0f, Color.DARK_GRAY,null), new MvtCirculaire(210, 210, 180, 0, 5)));
-		//d.ajouterObjet(new AnimationForme(new Visage(d, 300, 500, 40, 60), new MvtCirculaire(250,250, 180, 0, 5)));
+		d.ajouterObjet(new AnimationForme(new Visage(d, 300, 500, 40, 60), new MvtCirculaire(250,250, 180, 0, 5)));
 		
 		
 		
