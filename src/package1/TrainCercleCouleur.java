@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 
 
-public class TrainCercleCouleur extends TrainCercle {
+public class TrainCercleCouleur implements IObjetAnimable {
 	 /**
      * la couleur du cercle
      */
